@@ -1,6 +1,8 @@
 # glowing-tribble
 Passbolt in k8s
 
+
+ref: https://www.passbolt.com/blog/installing-passbolt-with-helm
 ## Steps to install passbolt k8s
 
 1. Add helm repository
