@@ -7,3 +7,7 @@ Passbolt in k8s
 ```bash
 helm repo add passbolt-repo https://download.passbolt.com/charts/passbolt
 ```
+2. Copy of values.yaml
+```bash
+wget https://raw.githubusercontent.com/passbolt/charts-passbolt/main/values.yaml
+```
