@@ -14,7 +14,7 @@ redis:
     # -- Enable redis authentication
     enabled: true
     # -- Configure redis password
-    password: "CHANGEME"
+    password: "123456"
   sentinel:
     # -- Enable redis sentinel
     enabled: true
@@ -194,17 +194,17 @@ passboltEnv:
     KUBECTL_DOWNLOAD_CMD: curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
   secret:
     # -- Configure passbolt cake cache password
-    CACHE_CAKE_DEFAULT_PASSWORD: CHANGEME
+    CACHE_CAKE_DEFAULT_PASSWORD: test
     # -- Configure passbolt default database password
-    DATASOURCES_DEFAULT_PASSWORD: CHANGEME
+    DATASOURCES_DEFAULT_PASSWORD: test
     # -- Configure passbolt default database username
-    DATASOURCES_DEFAULT_USERNAME: CHANGEME
+    DATASOURCES_DEFAULT_USERNAME: test
     # -- Configure passbolt default database
     DATASOURCES_DEFAULT_DATABASE: passbolt
     # -- Configure passbolt default email service username
-    EMAIL_TRANSPORT_DEFAULT_USERNAME: CHANGEME
+    EMAIL_TRANSPORT_DEFAULT_USERNAME: test
     # -- Configure passbolt default email service password
-    EMAIL_TRANSPORT_DEFAULT_PASSWORD: CHANGEME
+    EMAIL_TRANSPORT_DEFAULT_PASSWORD: test
     # -- Configure passbolt server gpg key fingerprint
     # PASSBOLT_GPG_SERVER_KEY_FINGERPRINT:
     # -- Configure passbolt security salt.
